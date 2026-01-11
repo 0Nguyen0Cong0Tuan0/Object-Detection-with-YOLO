@@ -68,14 +68,11 @@ while True:
                 thickness=2,                     # Thickness
                 offset=3                         # Offset or padding
             )
-
             
             # Logging
             print(x1, y1, w, h)
             print(conf)
             print(classNames[cls])
-
-                          
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
