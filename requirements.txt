@@ -1,0 +1,19 @@
+# Object Detection and Computer Vision Libraries
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+cvzone
+ultralytics
+hydra-core
+matplotlib
+numpy
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
+# torch
+# torchvision
+tqdm
+filterpy
+scikit-image
+lap
