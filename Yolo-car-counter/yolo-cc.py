@@ -10,6 +10,8 @@ cap = cv2.VideoCapture('Yolo-car-counter/real_traffic/output.mp4') # Video file
 
 limits = [300, 400, 500, 600]
 totalCount = set()
+currentClass = None
+conf = None
 
 # Tracking object using SORT
 tracker = Sort(max_age=20, min_hits=3, iou_threshold=0.3)
